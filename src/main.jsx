@@ -4,10 +4,12 @@ import Home from "./views/Home/Home";
 import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact";
 import NotFound from "./Views/NotFound/NotFound";
+import Navbar from "./../../Components/Navbar/Navbar";
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Routes>
+    <Navbar />
+    <Routes>git
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
