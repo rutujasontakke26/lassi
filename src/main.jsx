@@ -5,6 +5,7 @@ import About from "./Views/About/About";
 import Contact from "./Views/Contact/Contact";
 import NotFound from "./Views/NotFound/NotFound";
 import Navbar from "./Components/Navbar/Navbar";
+
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Navbar />
